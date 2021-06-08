@@ -1,0 +1,8 @@
+.payment-methods h3 {
+  color: rgb(69, 143, 100);
+}
+.payment-methods .icon {
+  color: rgb(69, 143, 100);
+  font-size: 30px;
+  margin: 0 10px;
+}

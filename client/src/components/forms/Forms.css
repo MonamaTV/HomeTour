@@ -1,0 +1,59 @@
+.form {
+  width: 300px;
+  margin: 0 auto;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.group-input {
+  width: 100%;
+  display: block;
+}
+
+.group-input label {
+  font-size: 13px;
+}
+
+.group-input h3,
+.group-input h2,
+.group-input small {
+  color: rgb(69, 143, 100);
+}
+.group-input h3 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.group-input a {
+  font-size: 12px;
+  color: gray;
+  text-decoration: none;
+}
+
+.group-input a:hover {
+  text-decoration: underline;
+}
+
+.group-input label,
+.group-input input {
+  color: rgb(112, 112, 112);
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  margin: 3px 0;
+}
+
+.group-input input {
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 0.1em solid rgba(69, 143, 100, 0.418);
+}
+.group-input input:focus {
+  border: 0.13em solid rgba(69, 143, 100, 0.603);
+  box-shadow: 0 0.1rem 0.7rem rgba(16, 36, 16, 0.075);
+}

@@ -1,0 +1,52 @@
+.showcase {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-showcase {
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgb(69, 143, 100);
+  cursor: pointer;
+}
+.close-showcase:hover {
+  background: rgba(69, 143, 100, 0.171);
+}
+.showcase-options h1 {
+  color: rgb(69, 143, 100);
+}
+
+.showcase-options .options {
+  color: rgba(53, 73, 61, 0.712);
+  width: 250px;
+  text-decoration: none;
+  padding: 20px 0;
+  display: block;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(42, 161, 92);
+  margin-bottom: 30px;
+}
+
+.showcase-options .options h2 * {
+  font-size: 30px;
+  position: relative;
+  transform: translateY(2px);
+  right: -30px;
+}
+
+.showcase-options .options:hover {
+  border-bottom: 1px solid rgb(6, 44, 22);
+  color: rgb(53, 73, 61);
+  transition: border-bottom ease-in 0.2s;
+}

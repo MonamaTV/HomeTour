@@ -1,0 +1,103 @@
+.tournaments {
+  margin: 10px;
+}
+
+.tournaments-header {
+  color: rgb(69, 143, 100);
+}
+
+.tournament-buttons button {
+  border: none;
+  padding: 2px 7px;
+  border: 1px solid rgb(69, 143, 100);
+  color: rgb(69, 143, 100);
+  background: #fff;
+  margin: 2px;
+}
+.active {
+  background: rgb(69, 143, 100) !important;
+  color: #fff !important;
+}
+
+.tournaments-list {
+  margin: 10px 0;
+}
+
+.tournament {
+  font-weight: 100;
+  box-shadow: 1px 1px 0.55rem rgba(0, 0, 0, 0.219);
+  padding: 20px;
+  margin: 20px 0;
+  background: rgb(69, 143, 100);
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.tournament h2 {
+  font-size: 18px;
+}
+
+.tournament p {
+  font-size: 15px;
+}
+.tournament h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.tournament-date h4 {
+  font-weight: normal;
+  font-size: 12px;
+}
+.tournament-details {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.prize {
+  margin-bottom: 15px;
+}
+.prize .icon {
+  color: rgb(69, 143, 100);
+}
+.location {
+  margin: 6px 0;
+}
+.prize h6,
+.location h6 {
+  font-size: 13px;
+  font-weight: normal;
+}
+.details h3,
+.details > h4 {
+  color: rgb(69, 143, 100);
+}
+.details h4 {
+  margin: 5px 0;
+}
+.details hr {
+  border: 1px solid rgba(0, 7, 3, 0.171);
+}
+
+.details p {
+  color: rgb(7, 41, 21);
+  font-size: 14px;
+}
+.location a,
+.join-tournament a {
+  text-decoration: none;
+  color: rgb(69, 143, 100);
+  font-size: 12px;
+}
+
+.join-tournament small {
+  display: block;
+}
+
+.join-tournament span {
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+@media screen and (min-width: 825px) {
+}
